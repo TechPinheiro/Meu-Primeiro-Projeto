@@ -1,1 +1,108 @@
 
+<!-- ===== index.html ===== -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Currículo de Ledanteque Pinheiro Filho — Estudante de ADS com foco em Desenvolvimento Web e Cibersegurança.">
+    <title>Currículo — Ledanteque Pinheiro Filho</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+   
+   
+    <div class="page">        
+      <header class="header">
+        <div class="avatar" aria-hidden="true">LP</div>
+        <div>
+          <h1 class="name">Ledanteque Pinheiro Filho</h1>
+          <p class="role">Estudante de Análise e Desenvolvimento de Sistemas</p>
+          <p class="meta">Idade: 30 anos • <span class="badge">Disponível para estágio</span></p>
+        </div>
+      </header>
+
+
+
+      <main id="conteudo" class="content">
+        <section aria-labelledby="sobre-titulo" class="card">
+          <h2 id="sobre-titulo">Sobre</h2>
+          <p>
+            Olá, me chamo Ledanteque, tenho 30 anos. Sou estudante de Análise e Desenvolvimento de Sistemas e, paralelamente, estudo Cibersegurança.
+            Atualmente, estou aprendendo HTML, CSS e JavaScript através do canal <strong>Curso em Vídeo</strong> (Prof. Gustavo Guanabara).
+            Busco uma oportunidade de estágio para conhecer melhor o mercado e desenvolver habilidades na prática.
+          </p>
+        </section>
+
+       
+       
+        <section aria-labelledby="objetivo-titulo" class="card">
+          <h2 id="objetivo-titulo">Objetivo</h2>
+          <p>
+            Conseguir uma oportunidade de <strong>estágio</strong> em Desenvolvimento Web ou na área de Suporte/Cibersegurança, com o objetivo de aplicar e aprimorar meus conhecimentos.
+          </p>
+        </section>
+
+       
+       
+        <section aria-labelledby="formacao-titulo" class="grid two card">
+          <div>
+            <h2 id="formacao-titulo">Formação</h2>
+            <ul class="list">
+              <li><strong>ADS — Análise e Desenvolvimento de Sistemas</strong><br><span class="muted">Cursando</span></li>
+              <li><strong>Cibersegurança</strong><br><span class="muted">Estudos em paralelo</span></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Cursos e Estudos</h2>
+            <ul class="list">
+              <li>HTML5, CSS3 e JavaScript — <span class="muted">Curso em Vídeo (Prof. Gustavo Guanabara)</span></li>
+            </ul>
+          </div>
+        </section>
+
+        
+        
+        <section aria-labelledby="skills-titulo" class="card">
+          <h2 id="skills-titulo">Habilidades</h2>
+          <ul class="chips" role="list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (básico)</li>
+            <li>Noções de Cibersegurança</li>
+            <li>Git/GitHub (básico)</li>
+            <li>Aprendizado rápido</li>
+            <li>Trabalho em equipe</li>
+            <li>Comunicação</li>
+          </ul>
+        </section>
+
+        
+        
+        <section aria-labelledby="contato-titulo" class="card">
+          <h2 id="contato-titulo">Contato</h2>
+          <ul class="contacts">
+            <li><span aria-hidden="true">📄</span>
+  <a href="Currículo — Ledanteque Pinheiro Filho 2025.pdf" download>Baixar Currículo (PDF)</a>
+</li>
+            <li><span aria-hidden="true">📧</span> <a href="mailto:TechPinheiro@outlook.com">TechPinheiro@outlook.com</a></li>
+            <li><span aria-hidden="true">📱</span> <a href="tel:+5585998512584">(+55) 85 99851-2584</a></li>
+            <li><span aria-hidden="true">💼</span> <a href="https://www.linkedin.com/in/pinheiro-filho-573771357/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><span aria-hidden="true">🐙</span> <a href="https://github.com/TechPinheiro" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="ano"></span> Ledanteque Pinheiro Filho — Currículo</p>
+      </footer>
+    </div>
+
+    <script>
+      // Atualiza ano automaticamente
+      document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
